@@ -1,0 +1,20 @@
+{
+  "profiles": {
+    "Single": {
+      "commandName": "Project",
+      "commandLineArgs": "single"
+    },
+    "Async": {
+      "commandName": "Project",
+      "commandLineArgs": "async"
+    },
+    "Wpf": {
+      "commandName": "Project",
+      "commandLineArgs": "wpf"
+    },
+    "Forms": {
+      "commandName": "Project",
+      "commandLineArgs": "forms"
+    }
+  }
+}

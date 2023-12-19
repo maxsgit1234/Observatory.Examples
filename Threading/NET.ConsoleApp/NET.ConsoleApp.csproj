@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Observatory.NET.Desktop" Version="1.0.10.4" />
+    <PackageReference Include="Observatory.Standard" Version="1.0.10.4" />
+    <PackageReference Include="OpenTK.WinForms" Version="4.0.0-pre.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Observatory.NET.Desktop">
+      <HintPath>..\Observatory\Observatory.NET.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="Observatory.Standard">
+      <HintPath>..\Observatory\Observatory.Standard.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

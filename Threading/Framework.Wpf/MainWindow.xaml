@@ -1,0 +1,16 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Framework.Wpf"
+        xmlns:ObservatoryLib="clr-namespace:ObservatoryLib;assembly=Observatory.Framework.Desktop" x:Class="Framework.Wpf.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <local:ObsControl x:Name="obsControl1" HorizontalAlignment="Center" Margin="0,84,0,0" VerticalAlignment="Top" Height="292" Width="579"/>
+
+        <!--<ObservatoryLib1:ObsControl Name="obsControl1" HorizontalAlignment="Left" Margin="148,88,0,0" VerticalAlignment="Top" Height="252" Width="493"/>-->
+
+    </Grid>
+</Window>
