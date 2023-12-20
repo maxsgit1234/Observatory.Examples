@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <TargetFramework>net7.0-windows7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
   </PropertyGroup>
@@ -14,10 +14,10 @@
 
   <ItemGroup>
     <Reference Include="Observatory.NET.Desktop">
-      <HintPath>..\..\..\..\_bin\Release\net6.0-windows\Observatory.NET.Desktop.dll</HintPath>
+      <HintPath>..\..\bin\Observatory.NET.Desktop.dll</HintPath>
     </Reference>
     <Reference Include="Observatory.Standard">
-      <HintPath>..\..\..\..\_bin\Release\net6.0-windows\Observatory.Standard.dll</HintPath>
+      <HintPath>..\..\bin\Observatory.Standard.dll</HintPath>
     </Reference>
   </ItemGroup>
 

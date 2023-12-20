@@ -11,6 +11,17 @@ using System.Windows.Forms;
 
 namespace Framework.ConsoleApp
 {
+    // This project shows how to structure a .NET Framework 4.7.2+ project that uses
+    // Observatory to create and launch plots for a few common scenarios you
+    // may encounter with Console App project types:
+    //
+    //     - Display a figure with no other forms or windows.
+    //     - Display figures and asynchronously wait for them to display,
+    //           without using any other forms or windows.
+    //     - Show a System.Windows.Forms.Form and display a figure when
+    //           clicking on a button in that form.
+    //     - Show a System.Windows.Window and display a figure when
+    //           clicking on a button in that window.
     internal class Program
     {
         public enum ExampleType
@@ -24,10 +35,10 @@ namespace Framework.ConsoleApp
         private static Dictionary<ExampleType, string> _Descriptions
             = new Dictionary<ExampleType, string>()
         {
-            {ExampleType.Single, "Display a single figure." },
-            {ExampleType.Async, "Display multiple figures, and asynchronously wait for them to display." },
-            {ExampleType.Forms, "Use a button on a System.Windows.Forms.Form to display a figure." },
-            {ExampleType.Wpf, "Use a button on a System.Windows.Window to display a figure." },
+            { ExampleType.Single, "Display a single figure." },
+            { ExampleType.Async, "Display multiple figures, and asynchronously wait for them to display." },
+            { ExampleType.Forms, "Use a button on a System.Windows.Forms.Form to display a figure." },
+            { ExampleType.Wpf, "Use a button on a System.Windows.Window to display a figure." },
         };
 
         private static bool TryParseArgs(string[] args, out ExampleType type)

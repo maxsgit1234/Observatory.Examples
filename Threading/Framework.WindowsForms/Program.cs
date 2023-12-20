@@ -6,11 +6,10 @@ using System.Windows.Forms;
 
 namespace Framework.WindowsForms
 {
+    // This project shows how to embed an Observatory figure
+    // inside a System.Windows.Forms.Form by using an ObsPanel control.
     internal static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
         [STAThread]
         static void Main()
         {

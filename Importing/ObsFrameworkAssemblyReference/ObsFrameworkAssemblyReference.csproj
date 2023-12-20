@@ -33,8 +33,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ObservatoryLib">
-      <HintPath>..\..\..\_bin\Release\ObservatoryLib.dll</HintPath>
+    <Reference Include="Observatory.Framework.Desktop">
+      <HintPath>..\..\bin\Observatory.Framework.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="Observatory.Standard">
+      <HintPath>..\..\bin\Observatory.Standard.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK">
+      <HintPath>..\..\bin\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.GLControl">
+      <HintPath>..\..\bin\OpenTK.GLControl.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

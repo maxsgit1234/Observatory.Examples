@@ -13,9 +13,9 @@ using System.Windows.Shapes;
 
 namespace Net.Wpf
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    // This project shows how to embed an Observatory figure
+    // inside a System.Windows.Window by using an ObsControl,
+    // which is a custom WPF control.
     public partial class MainWindow : Window
     {
         public MainWindow()

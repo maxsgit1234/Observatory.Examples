@@ -5,6 +5,17 @@ using System.Windows;
 
 namespace NET.ConsoleApp
 {
+    // This project shows how to structure a .NET 6.0+ project that uses
+    // Observatory to create and launch plots for a few common scenarios you
+    // may encounter with Console Application project types:
+    //
+    //     - Display a figure with no other forms or windows.
+    //     - Display figures and asynchronously wait for them to display,
+    //           without using any other forms or windows.
+    //     - Show a System.Windows.Forms.Form and display a figure when
+    //           clicking on a button in that form.
+    //     - Show a System.Windows.Window and display a figure when
+    //           clicking on a button in that window.
     internal class Program
     {
         public enum ExampleType

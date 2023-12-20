@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObsNugetTest", "ObsNugetTest\ObsNugetTest.csproj", "{FD5905AF-EC2C-4DCC-BA7A-2316282975EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObsFrameworkNuget", "ObsFrameworkNuget\ObsFrameworkNuget.csproj", "{FD5905AF-EC2C-4DCC-BA7A-2316282975EA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObsNugetNet", "ObsNugetNet\ObsNugetNet.csproj", "{C7FF3EFE-B494-4DD1-B78F-9FA7A634A3BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObsNetNuget", "ObsNetNuget\ObsNetNuget.csproj", "{C7FF3EFE-B494-4DD1-B78F-9FA7A634A3BE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObsFrameworkAssemblyReference", "ObsFrameworkAssemblyReference\ObsFrameworkAssemblyReference.csproj", "{B673F832-5947-4E37-A7E7-5F412826057B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObsNetAssemblyReference", "ObsNetAssemblyReference\ObsNetAssemblyReference.csproj", "{E3854BDF-82C0-4F0D-8CFE-7C212774272D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObsNetAssemblyReference", "ObsNetAssemblyReference\ObsNetAssemblyReference.csproj", "{E3854BDF-82C0-4F0D-8CFE-7C212774272D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
