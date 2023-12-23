@@ -124,19 +124,19 @@
   <ItemGroup>
     <Reference Include="Observatory.Framework.Desktop, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\bin\Observatory.Framework.Desktop.dll</HintPath>
+      <HintPath>..\bin\Build\Observatory.Framework.Desktop.dll</HintPath>
     </Reference>
-    <Reference Include="Observatory.Standard, Version=1.0.10.4, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Observatory.Standard, Version=1.0.10.11, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\bin\Observatory.Standard.dll</HintPath>
+      <HintPath>..\bin\Build\Observatory.Standard.dll</HintPath>
     </Reference>
     <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\bin\OpenTK.dll</HintPath>
+      <HintPath>..\bin\Build\OpenTK.dll</HintPath>
     </Reference>
     <Reference Include="OpenTK.GLControl, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\bin\OpenTK.GLControl.dll</HintPath>
+      <HintPath>..\bin\Build\OpenTK.GLControl.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -152,17 +152,17 @@
   </ItemGroup>
   <ItemGroup Condition="'cs'=='cs'">
     <Compile Include="IExample.cs" />
-    <Compile Include="Demos\_00_SimplePlot3d.cs" />
-    <Compile Include="Demos\_01_SimplePlot2d.cs" />
-    <Compile Include="Demos\_02_SimpleHistogram.cs" />
-    <Compile Include="Demos\_03_SimpleHeatMap.cs" />
-    <Compile Include="Demos\_04_CoordinateSystems.cs" />
-    <Compile Include="Demos\_05_TextAnnotations.cs" />
-    <Compile Include="Demos\_06_ColorDemo.cs" />
-    <Compile Include="Demos\_07_Figures.cs" />
-    <Compile Include="Demos\_08_Images.cs" />
-    <Compile Include="Demos\_09_TimeDrawings.cs" />
-    <Compile Include="Demos\_10_NamedItems.cs" />
+    <Compile Include="Source\_00_SimplePlot3d.cs" />
+    <Compile Include="Source\_01_SimplePlot2d.cs" />
+    <Compile Include="Source\_02_SimpleHistogram.cs" />
+    <Compile Include="Source\_03_SimpleHeatMap.cs" />
+    <Compile Include="Source\_04_CoordinateSystems.cs" />
+    <Compile Include="Source\_05_TextAnnotations.cs" />
+    <Compile Include="Source\_06_ColorDemo.cs" />
+    <Compile Include="Source\_07_Figures.cs" />
+    <Compile Include="Source\_08_Images.cs" />
+    <Compile Include="Source\_09_TimeDrawings.cs" />
+    <Compile Include="Source\_10_NamedItems.cs" />
     <Compile Include="Program.cs">
       <SubType>Form</SubType>
     </Compile>

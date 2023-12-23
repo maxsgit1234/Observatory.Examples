@@ -22,6 +22,9 @@ namespace Demos
             Platform.Init();
 
             Console.WriteLine("Running Observatory Demos Project...");
+            ObsResources.GetBuildInfo(out string json);
+            Console.WriteLine("Version info: " + json);
+
             new ExampleSelector().ShowDialog();
         }
     }
