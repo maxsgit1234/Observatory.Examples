@@ -112,7 +112,7 @@ namespace NET.ConsoleApp
         private static void DisplaySingleFigure()
         {
             Plot3d plot = new Plot3d();
-            plot.Display(wait: false);
+            plot.Display();
         }
 
         private static async void DisplayFiguresAsync()

@@ -14,10 +14,10 @@
 
   <ItemGroup>
     <Reference Include="Observatory.NET.Desktop">
-      <HintPath>..\..\bin\Observatory.NET.Desktop.dll</HintPath>
+      <HintPath>..\..\ObservatoryBin\Assemblies\Observatory.NET.Desktop.dll</HintPath>
     </Reference>
     <Reference Include="Observatory.Standard">
-      <HintPath>..\..\bin\Observatory.Standard.dll</HintPath>
+      <HintPath>..\..\ObservatoryBin\Assemblies\Observatory.Standard.dll</HintPath>
     </Reference>
   </ItemGroup>
 

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Observatory.NET.Desktop</name>
+    </assembly>
+    <members>
+        <member name="M:ObservatoryLib.Platform.Init">
+            <summary>
+            Initializes Observatory and establishes the calling thread as
+            the one on which the OpenGL context will be accessed.
+            </summary>
+        </member>
+        <member name="M:ObservatoryLib.Platform.Run">
+            <summary>
+            Runs a message loop on the current thread. This is useful, for
+            example, to prevent a console application from exiting.
+            </summary>
+        </member>
+    </members>
+</doc>
