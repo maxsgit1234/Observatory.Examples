@@ -4,6 +4,12 @@
         <name>Observatory.NET.Desktop</name>
     </assembly>
     <members>
+        <member name="F:ObservatoryLib.Platform.CreationTimeoutMs">
+            <summary>
+            Maximum duration, in milliseconds, to wait for a message thread
+            to be created during the call to Init(). 
+            </summary>
+        </member>
         <member name="M:ObservatoryLib.Platform.Init">
             <summary>
             Initializes Observatory and establishes the calling thread as

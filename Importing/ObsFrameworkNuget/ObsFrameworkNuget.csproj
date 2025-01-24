@@ -38,16 +38,16 @@
       <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
     <Reference Include="Observatory.Framework.Desktop, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Observatory.Framework.Desktop.1.1.0.2\lib\net472\Observatory.Framework.Desktop.dll</HintPath>
+      <HintPath>..\packages\Observatory.Framework.Desktop.1.1.0.12\lib\net472\Observatory.Framework.Desktop.dll</HintPath>
     </Reference>
     <Reference Include="Observatory.Standard, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Observatory.Framework.Desktop.1.1.0.2\lib\net472\Observatory.Standard.dll</HintPath>
+      <HintPath>..\packages\Observatory.Framework.Desktop.1.1.0.12\lib\net472\Observatory.Standard.dll</HintPath>
     </Reference>
     <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
-      <HintPath>..\packages\Observatory.Framework.Desktop.1.1.0.2\lib\net472\OpenTK.dll</HintPath>
+      <HintPath>..\packages\Observatory.Framework.Desktop.1.1.0.12\lib\net472\OpenTK.dll</HintPath>
     </Reference>
     <Reference Include="OpenTK.GLControl, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Observatory.Framework.Desktop.1.1.0.2\lib\net472\OpenTK.GLControl.dll</HintPath>
+      <HintPath>..\packages\Observatory.Framework.Desktop.1.1.0.12\lib\net472\OpenTK.GLControl.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">

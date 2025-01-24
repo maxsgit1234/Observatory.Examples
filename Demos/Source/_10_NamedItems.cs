@@ -97,7 +97,7 @@ namespace Demos
             {
                 if (!_AllNames.ContainsKey(id))
                 {
-                    OConsole.WriteLine("Hovered over something else!");
+                    Console.WriteLine("Hovered over something else!");
                     return;
                 }
 
@@ -115,7 +115,7 @@ namespace Demos
             {
                 if (!_AllNames.ContainsKey(obj.Id))
                 {
-                    OConsole.WriteLine("Clicked on something else!");
+                    Console.WriteLine("Clicked on something else!");
                     return;
                 }
 

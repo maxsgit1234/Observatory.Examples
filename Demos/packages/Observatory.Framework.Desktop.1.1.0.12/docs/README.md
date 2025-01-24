@@ -38,8 +38,6 @@ The easiest way to reference Observatory is with NuGet:
 - [Observatory.Framework.Desktop](https://www.nuget.org/packages/Observatory.Framework.Desktop) (.NET Framework 4.7.2+)
 
 - [Observatory.NET.Desktop](https://www.nuget.org/packages/Observatory.NET.Desktop) (.NET 6.0+)
-  
-  
 
 You can also download the Observatory assemblies directly from the [project website](http://doubledotmaxx.com).
 
@@ -55,7 +53,5 @@ For FAQs and help, please join our [Discord server](https://discord.gg/RPS94Rqv
 
 If you have questions, concerns, or ideas for improvement, please let me know. I'd' love to hear how you're using Observatory, and I appreciate any feedback!
 
-- [Email Me](mailto:doubledotmaxx@gmail.com)
+- Email Me: doubledotmaxx@gmail.com
 - Message me on [LinkedIn](https://www.linkedin.com/in/maximilian-zavodny-49916831/)
-
-

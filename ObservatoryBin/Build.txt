@@ -3,9 +3,9 @@
     "Major": 1,
     "Minor": 1,
     "Patch": 0,
-    "Local": 2
+    "Local": 12
   },
-  "BuildTimeUtc": "2023-12-28T01:25:02.8504302Z",
-  "BuildId": "726a0a89-f35c-48a6-af14-bdfc94af1ab9",
+  "BuildTimeUtc": "2025-01-24T21:16:25.6845595Z",
+  "BuildId": "5c7bd677-1ed3-46bb-a2e6-6e4e2659639c",
   "Notes": ""
 }

@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Observatory.NET.Desktop/1.1.0.2": {
+      "Observatory.NET.Desktop/1.1.0.12": {
         "dependencies": {
-          "Observatory.Standard": "1.1.0.2",
+          "Observatory.Standard": "1.1.0.12",
           "OpenTK": "4.8.2",
           "OpenTK.WinForms": "4.0.0-pre.6",
-          "System.Drawing.Common": "8.0.0"
+          "System.Drawing.Common": "8.0.7"
         },
         "runtime": {
           "Observatory.NET.Desktop.dll": {}
@@ -197,14 +197,14 @@
           }
         }
       },
-      "System.Drawing.Common/8.0.0": {
+      "System.Drawing.Common/8.0.7": {
         "dependencies": {
           "Microsoft.Win32.SystemEvents": "8.0.0"
         },
         "runtime": {
           "lib/net6.0/System.Drawing.Common.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53105"
+            "fileVersion": "8.0.724.31308"
           }
         }
       },
@@ -228,7 +228,7 @@
           }
         }
       },
-      "System.Text.Json/8.0.0": {
+      "System.Text.Json/8.0.4": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0",
           "System.Text.Encodings.Web": "8.0.0"
@@ -236,14 +236,14 @@
         "runtime": {
           "lib/net6.0/System.Text.Json.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
+            "fileVersion": "8.0.724.31311"
           }
         }
       },
-      "Observatory.Standard/1.1.0.2": {
+      "Observatory.Standard/1.1.0.12": {
         "dependencies": {
           "BytePack": "1.0.2",
-          "System.Text.Json": "8.0.0"
+          "System.Text.Json": "8.0.4"
         },
         "runtime": {
           "Observatory.Standard.dll": {}
@@ -252,7 +252,7 @@
     }
   },
   "libraries": {
-    "Observatory.NET.Desktop/1.1.0.2": {
+    "Observatory.NET.Desktop/1.1.0.12": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -355,12 +355,12 @@
       "path": "opentk.winforms/4.0.0-pre.6",
       "hashPath": "opentk.winforms.4.0.0-pre.6.nupkg.sha512"
     },
-    "System.Drawing.Common/8.0.0": {
+    "System.Drawing.Common/8.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-JkbHJjtI/dWc5dfmEdJlbe3VwgZqCkZRtfuWFh5GOv0f+gGCfBtzMpIVkmdkj2AObO9y+oiOi81UGwH3aBYuqA==",
-      "path": "system.drawing.common/8.0.0",
-      "hashPath": "system.drawing.common.8.0.0.nupkg.sha512"
+      "sha512": "sha512-DoeBae0gZvxs3mtfoub6F1k28fSkFPzmhFuvblplKMnLYKmTMVy0j4Yxahh96KM532JzHGDxhJn1VpMKSB1pyg==",
+      "path": "system.drawing.common/8.0.7",
+      "hashPath": "system.drawing.common.8.0.7.nupkg.sha512"
     },
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "type": "package",
@@ -376,14 +376,14 @@
       "path": "system.text.encodings.web/8.0.0",
       "hashPath": "system.text.encodings.web.8.0.0.nupkg.sha512"
     },
-    "System.Text.Json/8.0.0": {
+    "System.Text.Json/8.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-OdrZO2WjkiEG6ajEFRABTRCi/wuXQPxeV6g8xvUJqdxMvvuCCEk86zPla8UiIQJz3durtUEbNyY/3lIhS0yZvQ==",
-      "path": "system.text.json/8.0.0",
-      "hashPath": "system.text.json.8.0.0.nupkg.sha512"
+      "sha512": "sha512-bAkhgDJ88XTsqczoxEMliSrpijKZHhbJQldhAmObj/RbrN3sU5dcokuXmWJWsdQAhiMJ9bTayWsL1C9fbbCRhw==",
+      "path": "system.text.json/8.0.4",
+      "hashPath": "system.text.json.8.0.4.nupkg.sha512"
     },
-    "Observatory.Standard/1.1.0.2": {
+    "Observatory.Standard/1.1.0.12": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

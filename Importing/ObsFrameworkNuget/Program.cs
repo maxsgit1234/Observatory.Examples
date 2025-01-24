@@ -18,7 +18,10 @@ namespace ObsNugetTest
         {
             Platform.Init();
             Plot2d plot = new Plot2d();
-            plot.Display();
+			plot.Drawing.AddPoint(1, 2, Colors.Blue, 30);
+			plot.Drawing.AddPoint(2, 3, Colors.Green, 20);
+			plot.Drawing.AddPoint(3, 4, Colors.Red, 10);
+			plot.Display();
             Platform.Run();
         }
     }

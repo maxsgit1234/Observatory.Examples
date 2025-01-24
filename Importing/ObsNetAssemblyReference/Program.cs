@@ -23,6 +23,7 @@ namespace ObsNetAssemblyReference
         {
             Platform.Init();
             Plot2d plot = new Plot2d();
+            plot.Screen.AddTitle("Welcome to Observatory!");
             plot.Display();
             Platform.Run();
         }

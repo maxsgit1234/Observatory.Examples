@@ -4910,6 +4910,11 @@
             A mechanism for generating the lowest unpopulated index.
             </summary>
         </member>
+        <member name="M:ObservatoryLib.Server.Networks.GetExternalIPAddress">
+            <summary>
+            Get the IP address this machine uses to talk to the Internet.
+            </summary>
+        </member>
         <member name="M:ObservatoryLib.ColorExtensions.WithAlpha(ObservatoryLib.Drawing.Color,System.Double)">
             <summary>
             Returns a new Color whose Alpha value has been replaced by a value that 
@@ -5425,11 +5430,6 @@
             The Windows Forms Control that will host the plot content.
             </summary>
         </member>
-        <member name="F:ObservatoryLib.MultiSyncHost._Renderer">
-            <summary>
-            The dispatcher that is associated with the Windows Forms Control.
-            </summary>
-        </member>
         <member name="M:ObservatoryLib.MultiSyncHost.TryAttachToControl(ObservatoryLib.IGLControl)">
             <summary>
             This is the ONLY time it is OK to create the
@@ -5818,7 +5818,7 @@
             platform for screen-based items.
             </summary>
         </member>
-        <member name="P:ObservatoryLib.Viz.Logger">
+        <member name="M:ObservatoryLib.Viz.#ctor(ObservatoryLib.IVizSource)">
             <summary>
             A logger that provides extra information about events pertaining to
             this plot during run-time. For example, warnings messages might be 
@@ -5899,7 +5899,7 @@
             <param name="item">The item to remove.</param>
             <returns>True if the item was present; False otherwise.</returns>
         </member>
-        <member name="M:ObservatoryLib.Viz.SaveScreenShot(System.String)">
+        <member name="M:ObservatoryLib.Viz.SaveScreenShot(System.String,System.Boolean)">
             <summary>
             Save a screen shot of the visualization to file.
             </summary>
@@ -5927,6 +5927,11 @@
             <param name="timeoutMs">A maximum duration after which the action
             will not be called anymore.</param>
             <returns>A delegate which, when invoked, cancels this action.</returns>
+        </member>
+        <member name="M:ObservatoryLib.ConsoleLogHandler.W(System.String,System.ConsoleColor)">
+            <summary>
+            Shorthand for Console.WriteLine();
+            </summary>
         </member>
         <member name="T:ObservatoryLib.BitmapImage">
             <summary>
@@ -7793,6 +7798,18 @@
             items in the plot.
             </summary>
             <param name="layer"></param>
+        </member>
+        <member name="M:ObservatoryLib.HistExtensions.AddHistogram(ObservatoryLib.Hist{ObservatoryLib.RealTime},System.DateTime[],System.Nullable{ObservatoryLib.Drawing.Color},System.String)">
+            <summary>
+            Creates an interactive histogram from the supplied source data and
+            adds it to the plot.
+            </summary>
+            <param name="values">A set of values which will be binned and 
+            displayed as a histogram. Order does not matter. Note: These are 
+            *not* binned values themselves.</param>
+            <param name="color">If specified, the color of the histogram.</param>
+            <param name="name">If specified, a name which may appear on the legend, 
+            or which may be used to identify this histogram.</param>
         </member>
         <member name="P:ObservatoryLib.MultiLayerDrawing2.ActiveLayer">
             <summary>
