@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Observatory.Standard/1.1.0.12": {
+      "Observatory.Standard/1.1.0.14": {
         "dependencies": {
           "BytePack": "1.0.2",
           "NETStandard.Library": "2.0.3",
@@ -122,7 +122,7 @@
     }
   },
   "libraries": {
-    "Observatory.Standard/1.1.0.12": {
+    "Observatory.Standard/1.1.0.14": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

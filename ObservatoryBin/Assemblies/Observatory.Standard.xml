@@ -4910,11 +4910,6 @@
             A mechanism for generating the lowest unpopulated index.
             </summary>
         </member>
-        <member name="M:ObservatoryLib.Server.Networks.GetExternalIPAddress">
-            <summary>
-            Get the IP address this machine uses to talk to the Internet.
-            </summary>
-        </member>
         <member name="M:ObservatoryLib.ColorExtensions.WithAlpha(ObservatoryLib.Drawing.Color,System.Double)">
             <summary>
             Returns a new Color whose Alpha value has been replaced by a value that 

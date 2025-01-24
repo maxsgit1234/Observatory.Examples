@@ -6,9 +6,9 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Observatory.NET.Desktop/1.1.0.12": {
+      "Observatory.NET.Desktop/1.1.0.14": {
         "dependencies": {
-          "Observatory.Standard": "1.1.0.12",
+          "Observatory.Standard": "1.1.0.14",
           "OpenTK": "4.8.2",
           "OpenTK.WinForms": "4.0.0-pre.6",
           "System.Drawing.Common": "8.0.7"
@@ -240,7 +240,7 @@
           }
         }
       },
-      "Observatory.Standard/1.1.0.12": {
+      "Observatory.Standard/1.1.0.14": {
         "dependencies": {
           "BytePack": "1.0.2",
           "System.Text.Json": "8.0.4"
@@ -252,7 +252,7 @@
     }
   },
   "libraries": {
-    "Observatory.NET.Desktop/1.1.0.12": {
+    "Observatory.NET.Desktop/1.1.0.14": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -383,7 +383,7 @@
       "path": "system.text.json/8.0.4",
       "hashPath": "system.text.json.8.0.4.nupkg.sha512"
     },
-    "Observatory.Standard/1.1.0.12": {
+    "Observatory.Standard/1.1.0.14": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
