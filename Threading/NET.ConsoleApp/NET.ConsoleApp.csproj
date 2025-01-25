@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Observatory.NET.Desktop" Version="1.1.0.14" />
+    <PackageReference Include="Observatory.NET.Desktop" Version="1.1.0.17" />
   </ItemGroup>
 
   <ItemGroup>

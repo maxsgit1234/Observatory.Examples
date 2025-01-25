@@ -2,12 +2,13 @@
 
 namespace ObsNetAssemblyReference
 {
-    // This example shows how to make a simplest-possible .NET 6.0+
+    // This example shows how to make a simplest-possible .NET 8.0+
     // project that uses Observatory via a stand-alone assembly reference.
     // 
     // First, you must add a reference to the followinig NuGet packages:
-    //     - OpenTK.WinForms
-    //     - System.Drawing.Common (if targetting .NET 6.0 or 7.0)
+    //     - OpenTK
+    //     - OpenTK.GLControl
+    //     - System.Drawing.Common
     //
     // Then, add a project reference to the following files:
     //     - Observatory.NET.Desktop.dll
